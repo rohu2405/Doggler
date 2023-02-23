@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">Doggler</string>
+    <string name="Money_Heist"> Money Heist</string>
+    <string name="Stranger_Things"> Stranger Things</string>
+    <string name="Squid_Game"> Squid Game</string>
+    <string name="All_of_us_are_dead"> All Of Us Are Dead </string>
+    <string name="Dark"> Dark</string>
+    <string name="Breaking_Bad"> Breaking Bad</string>
+    <string name="Alice_in_borderland"> Alice In Borderland</string>
+    <string name="Hanna"> Hanna</string>
+    <string name="Jack_ryan"> Tom Clancy\'s Jack Ryan</string>
+    <string name="looming_tower"> The Looming Tower</string>
+    <string name="Mr_Robot"> Mr Robot</string>
+    <string name="Ozark"> Ozark</string>
 </resources>

@@ -15,17 +15,16 @@
         android:textColor="@color/black"
         android:textStyle="bold"
         android:fontFamily="sans-serif-light"
-        android:text="ALL TIME FAVOURITE WEB SERIES">
-
-    </TextView>
+        android:text="ALL TIME FAVOURITE WEB SERIES"/>
 
     <androidx.recyclerview.widget.RecyclerView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-       android:id="@+id/recyclerview"
+        android:id="@+id/recyclerview_grid"
         android:scrollbars="vertical"
+        app:spanCount="3"
         android:layout_marginTop="90dp"
-        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
 
         />
 

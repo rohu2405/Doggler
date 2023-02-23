@@ -6,13 +6,13 @@ import androidx.recyclerview.widget.RecyclerView
 import com.example.doggler.model.DataSource
 import com.example.doggler.model.ItemAdapter
 
-class MainActivity : AppCompatActivity() {
+class GridLayout : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.activity_grid_layout)
 
         val myDataset = DataSource().loadWebShows()
-        val recyclerView = findViewById<RecyclerView>(R.id.recyclerview)
+        val recyclerView = findViewById<RecyclerView>(R.id.recyclerview_grid)
         recyclerView.adapter = ItemAdapter(this, myDataset)
         recyclerView.setHasFixedSize(true)
     }
